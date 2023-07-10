@@ -31,14 +31,12 @@ function handleBorneo()
 function expand(divname)
 {
     let mydiv=document.getElementById(divname);
-    const currentDisplay = mydiv.style.display;
     mydiv.style.display = "block";    
 }
 
 function collapse(divname)
 {
     let mydiv=document.getElementById(divname);
-    const currentDisplay = mydiv.style.display;
     mydiv.style.display = "none";        
 }
 
